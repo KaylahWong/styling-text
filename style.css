@@ -60,12 +60,21 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  html {
+    font-size: 10px;
+  }
   header {
     font-family: kaushan_scriptregular,serif;
     text-align: center;
+    letter-spacing: 0.3em;
 }
 body {
     font-family: source_sans_proextralight, serif;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+
+
 }
 h2 + p {
     text-indent: 5%;
