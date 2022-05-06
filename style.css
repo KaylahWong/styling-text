@@ -73,8 +73,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.1em;
     word-spacing: 0.2em;
-
-
+}
+p{
+    margin: 0px;
+}
+h2 {
+    margin:0px;
 }
 h2 + p {
     text-indent: 5%;
@@ -104,15 +108,20 @@ a[href*="https"] {
 ol,
 ul {
     list-style-type: none;
+    margin: 0px;
+    line-height: 1.5;
 }
 section ul li {
     list-style-type: square;
 }
+ol li {
+    list-style-type:lower-alpha;
+}
 aside ul li {
     list-style-type: square;
 }
-ol li {
-    list-style-type:lower-alpha;
+aside p {
+    margin: 10px;
 }
 /* nav ul {
     padding: 0;
@@ -131,10 +140,10 @@ nav li:last-child a {
     margin-bottom: 0;
 }
 nav a:link, nav a:visited, nav a:focus {
-    border: 1px solid hotpink;
+    border: 1px solid #a66;
 }
 nav a:hover {
-    background: black;
+    background: orange;
 }
 
 
